@@ -70,7 +70,8 @@ namespace UnityExplorer.ObjectExplorer
             if (SceneHandler.SelectedScene != go.scene)
             {
                 int idx;
-                if (go.scene == default || go.scene.handle == -1)
+                
+                if (go.scene == default || RuntimeHelper.GetSceneIntHandle(go.scene) == -1)
                     idx = sceneDropdown.options.Count - 1;
                 else
                     idx = sceneDropdown.options.IndexOf(sceneToDropdownOption[go.scene]);
