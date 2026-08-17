@@ -1,3 +1,21 @@
+# About This Fork
+
+This is a personal fork of [UnityExplorer](https://github.com/yukieiji/UnityExplorer), maintained primarily for personal use.
+
+The main focus of this fork is to keep UnityExplorer usable with newer Unity versions and to address small issues encountered during day-to-day use. It currently includes **Unity 6 `SceneHandle` support**, along with various minor fixes and improvements.
+
+This fork is **not intended to replace or compete with the upstream project**. Changes will generally remain small and practical, and may be specific to my own use cases.
+
+### What to Expect
+
+* Unity 6 compatibility improvements and fixes
+* Small bug fixes discovered during personal use
+* Minor quality-of-life improvements and features
+* Changes that may be experimental or specific to certain Unity versions
+
+For the latest upstream development and general project information, please refer to the original [UnityExplorer](https://github.com/yukieiji/UnityExplorer) repository.
+
+---
 <p align="center">
   <img align="center" src="img/icon.png">
 </p>
@@ -27,9 +45,9 @@ If there are any bugs or features you want, please create a [ticket](https://git
 - New features while keeping high compatibility
 - stability
 
-# Releases  [![](https://img.shields.io/github/downloads/yukieiji/UnityExplorer/total.svg)](../../releases)
+# Releases  [![](https://img.shields.io/github/downloads/yukieiji/UnityExplorer/total.svg)](../../../releases)
 
-[![](https://img.shields.io/github/release/yukieiji/UnityExplorer.svg?label=version)](../../releases/latest) [![](https://img.shields.io/github/workflow/status/yukieiji/UnityExplorer/Build%20UnityExplorer)](https://github.com/yukieiji/UnityExplorer/actions) [![](https://img.shields.io/github/downloads/yukieiji/UnityExplorer/latest/total.svg)](../../releases/latest)
+[![](https://img.shields.io/github/release/yukieiji/UnityExplorer.svg?label=version)](../../../releases/latest) [![](https://img.shields.io/github/workflow/status/yukieiji/UnityExplorer/Build%20UnityExplorer)](https://github.com/yukieiji/UnityExplorer/actions) [![](https://img.shields.io/github/downloads/yukieiji/UnityExplorer/latest/total.svg)](../../../releases/latest)
 
 
 ## Release schedule
